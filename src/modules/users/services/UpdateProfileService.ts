@@ -66,6 +66,8 @@ class UpdateProfileService {
       user.password = await this.hashProvider.generateHash(password);
     }
 
+    // TODO Invalidar cache de listagem de providers após atualizar photo de perfil.
+
     return this.usersRepository.save(user);
   }
 }

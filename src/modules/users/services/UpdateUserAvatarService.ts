@@ -39,6 +39,8 @@ class UpdateUserAvatarService {
 
     await this.usersRepository.save(user);
 
+    // TODO Invalidar cache de listagem de providers após atualizar photo de perfil.
+
     return user;
   }
 }
