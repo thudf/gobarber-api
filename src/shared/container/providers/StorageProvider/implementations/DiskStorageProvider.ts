@@ -20,7 +20,7 @@ export default class DiskStorageProvider implements IStorageProvider {
 
     try {
       await fs.promises.stat(filePath);
-    } catch {
+    } catch (err) {
       return;
     }
 
