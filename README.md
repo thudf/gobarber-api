@@ -2,7 +2,9 @@
   <img alt="gobarber" src="./assets/logo.png" width="auto" heigth="auto"/>
 </div>
 
-<div align="center" style="margin: 20px;">
+</br>
+
+<div align="center">
 
 
   <p align="center" >
@@ -49,7 +51,7 @@ As princiais tecnologias utilizadas na construção da API:
 
 Para importar a documentação das rotas no Insomnia, clique no botão abaixo:
 
-<a href="https://insomnia.rest/run/?label=PontoLoc&uri=https%3A%2F%2Fraw.githubusercontent.com%2FEliasGcf%2Fpontoloc-api%2Fmaster%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+<a href="https://insomnia.rest/run/?label=GoBarber-API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fthudf%2Fgobarber-api%2Fmaster%2Fassets%2Finsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 
 ### Requisitos
 
